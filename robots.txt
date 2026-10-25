@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alateima.com/sitemap.xml

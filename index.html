@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Al Ateima — Middle-Eastern &amp; Mediterranean Foods</title>
+<meta name="description" content="Al Ateima is a Middle-Eastern and Mediterranean kitchen built around the mezze table: hummus, za'atar man'oushe, grilled kofta and bright salads. Opening soon.">
+<link rel="canonical" href="https://alateima.com/">
+<meta property="og:title" content="Al Ateima — Middle-Eastern &amp; Mediterranean foods">
+<meta property="og:description" content="A kitchen built around the mezze table: hummus, man'oushe, kofta, and bright salads. Opening soon.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alateima.com/">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%233A4524'/%3E%3Cg fill='none' stroke='%23F1E9D7'%3E%3Ccircle cx='16' cy='17' r='11.5' stroke-width='1.2'/%3E%3Ccircle cx='16' cy='17' r='8.8' stroke-width='.6' opacity='.7'/%3E%3Ccircle cx='16' cy='17' r='3.6' stroke-width='.9'/%3E%3Cpath d='M9 10c3-3.5 5.5-5 8.5-5.5' stroke-width='1.1' stroke-linecap='round'/%3E%3Cpath d='M12.5 7.8c-.2-1.6.6-3 2-3.6.5 1.5-.1 3-2 3.6zM15.5 6.2c0-1.5 1-2.8 2.4-3.2.3 1.5-.5 2.9-2.4 3.2z' stroke-width='.8'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prata&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Al Ateima","url":"https://alateima.com/","servesCuisine":["Middle Eastern","Mediterranean","Lebanese"],"description":"Middle-Eastern and Mediterranean kitchen built around the mezze table: hummus, za'atar man'oushe, grilled kofta and salads. Opening soon.","priceRange":"$$"}
+</script>
+<style>
+:root{
+  --tahini:#F1E9D7; --zaatar:#3A4524; --olive:#5A6637; --sumac:#8E3B2F;
+  --sea:#2E6E8E; --leaf:#A8B36E; --line:#D8CFB6;
+  --display:"Prata",Georgia,serif; --body:"Nunito Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--tahini);color:var(--zaatar);font-family:var(--body);font-size:17px;line-height:1.65}
+a{color:var(--sumac)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--sea);outline-offset:2px}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
+header.site{border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 20px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--zaatar)}
+.brand b{font-family:var(--display);font-size:1.4rem;font-weight:400}
+nav.main a{color:var(--zaatar);text-decoration:none;margin-left:22px;font-size:.95rem;font-weight:600}
+nav.main a:hover{color:var(--sumac);text-decoration:underline;text-underline-offset:4px}
+.hero{border-bottom:1px solid var(--line)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center;padding-top:60px;padding-bottom:60px}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(2.1rem,4.9vw,3.4rem);line-height:1.15}
+.hero p.lede{margin-top:18px;max-width:50ch;font-size:1.1rem}
+.hero .actions{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 24px;border-radius:4px;text-decoration:none;font-weight:700;font-size:.97rem;border:0;cursor:pointer;font-family:var(--body)}
+.btn-olive{background:var(--zaatar);color:var(--tahini)}
+.btn-olive:hover{background:var(--olive)}
+.btn-open{border:2px solid var(--zaatar);color:var(--zaatar);background:transparent}
+.btn-open:hover{background:#E7DEC6}
+.mezze-art{justify-self:center}
+section{padding:60px 0}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(1.6rem,3.1vw,2.3rem);line-height:1.2;margin-bottom:12px}
+.k{color:var(--sumac);font-weight:700;font-size:.95rem;margin-bottom:8px}
+.table-idea{background:var(--zaatar);color:var(--tahini)}
+.table-idea .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.table-idea h2{color:var(--tahini)}
+.table-idea p{color:#D9D9BE;max-width:54ch;margin-bottom:14px}
+.olive-branch{justify-self:center}
+.menu{border-bottom:1px solid var(--line)}
+.menu .intro{max-width:62ch;margin-bottom:34px;color:#54603B}
+.mezze-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:34px 44px}
+.mz h3{font-family:var(--display);font-weight:400;font-size:1.22rem;margin-bottom:12px;display:flex;align-items:center;gap:9px;color:var(--sumac)}
+.mz .item{padding:9px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:14px}
+.mz .item:last-child{border-bottom:0}
+.mz .nm{font-weight:700}
+.mz .ds{display:block;font-weight:400;font-size:.89rem;color:#6B744B;max-width:34ch}
+.mz .pr{font-weight:700;white-space:nowrap}
+.pantry{border-bottom:1px solid var(--line);background:#EAE1CB}
+.pantry .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px;align-items:start}
+.pantry p{max-width:54ch;margin-bottom:14px}
+.plist{border-top:2px solid var(--olive)}
+.plist li{list-style:none;display:flex;gap:14px;padding:15px 0;border-bottom:1px dashed #BBB091;align-items:flex-start}
+.plist li:last-child{border-bottom:0}
+.plist svg{flex:none;margin-top:2px}
+.plist b{display:block}
+.plist span{font-size:.95rem;color:#54603B}
+.join .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.join form{display:grid;gap:14px;background:#FBF6EA;border:1px solid var(--line);border-radius:10px;padding:28px}
+label{font-weight:700;font-size:.92rem}
+input,select{width:100%;padding:11px 12px;border:1.5px solid var(--olive);border-radius:5px;background:#fff;font:inherit;font-size:.97rem}
+.form-note{font-size:.88rem;color:#6B744B}
+footer.site{background:var(--zaatar);color:#D9D9BE;padding:42px 0 28px}
+footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
+footer h3{font-family:var(--display);font-weight:400;font-size:1.2rem;color:var(--tahini);margin-bottom:8px}
+footer a{color:#C9CD9E;text-decoration:none;display:block;padding:4px 0;font-size:.94rem}
+footer a:hover{color:#fff;text-decoration:underline}
+footer .fineprint{grid-column:1/-1;border-top:1px solid #4C5A30;margin-top:24px;padding-top:14px;font-size:.85rem;color:#A9B183;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media (max-width:900px){
+  .hero .wrap,.table-idea .wrap,.pantry .wrap,.join .wrap{grid-template-columns:1fr}
+  .mezze-grid{grid-template-columns:1fr 1fr}
+  .mezze-art svg{width:320px;height:auto}
+  footer .wrap{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .mezze-grid{grid-template-columns:1fr}
+  footer .wrap{grid-template-columns:1fr}
+  nav.main a{margin-left:0;margin-right:16px}
+}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Al Ateima home">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
+        <!-- etched plate-and-olive-sprig seal -->
+        <g fill="none" stroke="#3A4524">
+          <circle cx="20" cy="21" r="15" stroke-width="1.5"/>
+          <circle cx="20" cy="21" r="11.8" stroke-width=".6" opacity=".7"/>
+          <circle cx="20" cy="21" r="4.6" stroke-width="1"/>
+          <path d="M20 16.4c1.6.7 2.6 2 2.6 3.6" stroke-width=".5" opacity=".6"/>
+          <path d="M10.5 12c4-4.5 7.5-6.5 11.5-7" stroke-width="1.3" stroke-linecap="round"/>
+          <path d="M15 9c-.3-2 .7-3.8 2.5-4.5.6 1.9-.2 3.8-2.5 4.5zM19 7c0-1.9 1.2-3.5 3-4 .4 1.9-.6 3.6-3 4z" stroke-width=".9"/>
+          <circle cx="12.6" cy="12.8" r="1.3" stroke-width=".9"/>
+        </g>
+      </svg>
+      <b>Al Ateima</b>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="#table">The table</a>
+      <a href="#menu">Mezze &amp; mains</a>
+      <a href="#pantry">Pantry</a>
+      <a href="#join">Opening news</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Dinner here starts with twelve small plates.</h1>
+      <p class="lede">Al Ateima — "the foods" — is a Middle-Eastern and Mediterranean kitchen built around the mezze table: hummus whipped to order, man'oushe flattened by hand, kofta off the charcoal, salads that taste like the lemon was cut a minute ago. Because it was.</p>
+      <div class="actions">
+        <a class="btn btn-olive" href="#menu">See mezze &amp; mains</a>
+        <a class="btn btn-open" href="#join">Get opening news</a>
+      </div>
+    </div>
+    <div class="mezze-art" aria-hidden="true">
+      <svg width="420" height="360" viewBox="0 0 420 360" role="img" aria-label="">
+        <!-- engraved overhead mezze spread: etched line work with hatched shading -->
+        <rect width="420" height="360" rx="18" fill="#EAE1CB"/>
+        <g fill="none" stroke="#3A4524">
+          <!-- hummus plate: rimmed, swirled, oil well -->
+          <circle cx="160" cy="150" r="88" stroke-width="1.8"/>
+          <circle cx="160" cy="150" r="78" stroke-width=".8" opacity=".7"/>
+          <circle cx="160" cy="150" r="52" stroke-width="1.2"/>
+          <!-- swirl made with the back of a spoon -->
+          <path d="M126 150c0-19 15-34 34-34s34 15 34 34-15 34-34 34c-14 0-26-9-31-21" stroke-width="1"/>
+          <path d="M138 150c0-12 10-22 22-22s22 10 22 22-10 22-22 22" stroke-width=".8" opacity=".8"/>
+          <ellipse cx="160" cy="150" rx="9" ry="7" stroke-width="1"/>
+          <path d="M154 148c2-2 6-2 9-1" stroke-width=".55" opacity=".7"/>
+          <!-- plate shading hatch -->
+          <g stroke-width=".55" opacity=".45">
+            <path d="M92 178c6 10 15 19 26 25M98 188c6 8 14 15 23 20M106 197c6 6 13 12 20 16"/>
+          </g>
+          <!-- parsley garnish -->
+          <path d="M118 118c6 4 8 10 7 17M202 118c-6 4-8 10-7 17" stroke-width="1.1"/>
+          <path d="M115 122c3 0 6 2 8 5M205 122c-3 0-6 2-8 5" stroke-width=".6" opacity=".7"/>
+          <!-- olive bowl -->
+          <circle cx="318" cy="92" r="46" stroke-width="1.8"/>
+          <circle cx="318" cy="92" r="37" stroke-width="1"/>
+          <g stroke-width="1.1">
+            <ellipse cx="305" cy="84" rx="9" ry="6.5"/><ellipse cx="328" cy="78" rx="9" ry="6.5" transform="rotate(24 328 78)"/><ellipse cx="334" cy="102" rx="9" ry="6.5" transform="rotate(-18 334 102)"/><ellipse cx="310" cy="106" rx="9" ry="6.5" transform="rotate(40 310 106)"/><ellipse cx="322" cy="92" rx="8" ry="6" transform="rotate(10 322 92)"/>
+          </g>
+          <g stroke-width=".5" opacity=".7"><path d="M301 82c2-1 5-1 7 0M324 76c2-1 5 0 6 1M330 100c2-1 5-1 7 0"/></g>
+          <g stroke-width=".55" opacity=".45"><path d="M284 108c6 7 14 13 24 16M290 115c6 5 13 9 20 12"/></g>
+          <!-- tabbouleh bowl -->
+          <circle cx="320" cy="222" r="52" stroke-width="1.8"/>
+          <circle cx="320" cy="222" r="42" stroke-width="1"/>
+          <!-- chopped herb texture -->
+          <g stroke-width=".7" opacity=".8">
+            <path d="M298 208l7 3M312 202l6 4M330 204l6 3M342 214l5 4M296 226l6 3M310 232l7 2M328 238l6 2M340 230l5 3M318 216l6 3M304 218l5 3M334 222l6 2"/>
+          </g>
+          <g stroke-width="1" opacity=".9"><circle cx="320" cy="220" r="3.4"/><circle cx="300" cy="230" r="3"/><circle cx="338" cy="212" r="3"/></g>
+          <g stroke-width=".55" opacity=".45"><path d="M284 244c8 8 19 14 30 15M292 252c7 5 16 9 24 10"/></g>
+          <!-- pita stack: two breads with blistered tops -->
+          <ellipse cx="128" cy="292" rx="70" ry="28" stroke-width="1.6"/>
+          <ellipse cx="128" cy="282" rx="70" ry="28" stroke-width="1.6"/>
+          <path d="M70 282a58 23 0 0 1 116 0" stroke-width=".8" opacity=".7"/>
+          <g stroke-width=".7" opacity=".75">
+            <circle cx="104" cy="276" r="2.6"/><circle cx="140" cy="284" r="2.4"/><circle cx="162" cy="274" r="2.8"/><circle cx="120" cy="288" r="2"/><circle cx="92" cy="286" r="2.2"/>
+          </g>
+          <g stroke-width=".55" opacity=".45"><path d="M66 298c10 8 26 13 42 14M80 306c10 5 22 8 34 8"/></g>
+          <!-- sumac dish -->
+          <circle cx="248" cy="300" r="26" stroke-width="1.6"/>
+          <circle cx="248" cy="300" r="19" stroke-width="1"/>
+          <g stroke-width=".55" opacity=".7"><path d="M240 294l5 3M250 292l5 3M242 304l5 3M252 302l4 3"/></g>
+          <!-- lemon half: engraved segments -->
+          <circle cx="52" cy="80" r="22" stroke-width="1.6"/>
+          <circle cx="52" cy="80" r="17" stroke-width=".8" opacity=".8"/>
+          <g stroke-width=".8">
+            <path d="M52 64v32M38 80h28M42.5 70.5l19 19M61.5 70.5l-19 19"/>
+          </g>
+          <g stroke-width=".5" opacity=".6"><path d="M48 68c-4 2-7 6-8 10M58 92c4-2 7-6 8-10"/></g>
+          <!-- scattered mint leaves with midribs -->
+          <g stroke-width="1">
+            <path d="M230 52c4-4 10-5 14-2-1 5-7 8-12 6-2-1-3-2-2-4zM250 146c4-4 10-5 14-2-1 5-7 8-12 6-2-1-3-2-2-4zM54 192c4-4 10-5 14-2-1 5-7 8-12 6-2-1-3-2-2-4zM380 156c4-4 10-5 14-2-1 5-7 8-12 6-2-1-3-2-2-4z"/>
+          </g>
+          <g stroke-width=".5" opacity=".7"><path d="M232 54l10 0M252 148l10 0M56 194l10 0M382 158l10 0"/></g>
+        </g>
+      </svg>
+    </div>
+  </div>
+</div>
+
+<section id="table" class="table-idea">
+  <div class="wrap">
+    <div>
+      <p class="k" style="color:#C9CD9E">The idea</p>
+      <h2>One long table, passed left to right.</h2>
+      <p>In every kitchen we come from — Beirut, Amman, the Aegean coast — dinner isn't a plate, it's a surface. Small dishes keep arriving until the table disappears, and everyone eats from everything. The meal ends when the bread does.</p>
+      <p>Al Ateima is built to serve that way: mezze first and always, charcoal mains for the center of the table, and a bread oven that doesn't stop. We're fitting out the room now, and the oven arrives before the chairs do. Priorities.</p>
+    </div>
+    <svg class="olive-branch" width="300" height="230" viewBox="0 0 300 230" aria-hidden="true">
+      <!-- engraved olive branch: botanical plate style -->
+      <g fill="none" stroke="#A8B36E" stroke-linecap="round">
+        <path d="M30 200C90 150 150 90 270 40" stroke-width="2.4"/>
+        <path d="M34 196C92 148 150 90 264 44" stroke-width=".7" opacity=".5"/>
+        <!-- leaves with midribs -->
+        <g stroke-width="1.6">
+          <path d="M68 164c8-14 22-20 36-17-4 15-17 24-31 22-4-1-6-3-5-5z"/>
+          <path d="M132 118c8-14 22-20 36-17-4 15-17 24-31 22-4-1-6-3-5-5z"/>
+          <path d="M196 80c8-14 22-20 36-17-4 15-17 24-31 22-4-1-6-3-5-5z"/>
+          <path d="M116 146c-2-16 5-29 18-35 5 14 0 29-13 36-3 1-5 1-5-1z"/>
+          <path d="M182 104c-2-16 5-29 18-35 5 14 0 29-13 36-3 1-5 1-5-1z"/>
+        </g>
+        <g stroke-width=".6" opacity=".7">
+          <path d="M72 162c9-8 20-12 29-13M136 116c9-8 20-12 29-13M200 78c9-8 20-12 29-13M120 142c2-11 7-20 13-27M186 100c2-11 7-20 13-27"/>
+        </g>
+      </g>
+      <!-- olives with highlight and hatch shading -->
+      <g fill="none" stroke="#6B7A3E" stroke-width="1.8">
+        <ellipse cx="112" cy="178" rx="11" ry="13"/><ellipse cx="176" cy="132" rx="11" ry="13"/><ellipse cx="238" cy="94" rx="11" ry="13"/>
+      </g>
+      <g fill="none" stroke="#6B7A3E" stroke-width=".6" opacity=".6">
+        <path d="M106 184c3 3 8 4 12 2M170 138c3 3 8 4 12 2M232 100c3 3 8 4 12 2"/>
+        <path d="M108 170c2-1 4-2 6-1M172 124c2-1 4-2 6-1M234 86c2-1 4-2 6-1"/>
+      </g>
+      <g fill="none" stroke="#8E3B2F" stroke-width="1.6">
+        <ellipse cx="140" cy="192" rx="9" ry="11"/><ellipse cx="206" cy="148" rx="9" ry="11"/>
+      </g>
+      <g fill="none" stroke="#8E3B2F" stroke-width=".55" opacity=".6">
+        <path d="M135 198c3 2 7 3 10 1M201 154c3 2 7 3 10 1"/>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<section id="menu" class="menu">
+  <div class="wrap">
+    <p class="k">Mezze &amp; mains</p>
+    <h2>The opening table.</h2>
+    <p class="intro">A draft of what we'll serve on day one. Cold mezze arrive fast, hot mezze as the oven allows, mains when the charcoal says so. Nearly everything can be made vegetarian; much of it already is.</p>
+    <div class="mezze-grid">
+      <div class="mz">
+        <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8E3B2F" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/></svg>Cold mezze</h3>
+        <div class="item"><span class="nm">Hummus bil tahini<span class="ds">Whipped to order, olive oil, warm pita</span></span><span class="pr">$8</span></div>
+        <div class="item"><span class="nm">Mutabbal<span class="ds">Fire-roasted eggplant, tahini, pomegranate</span></span><span class="pr">$9</span></div>
+        <div class="item"><span class="nm">Tabbouleh<span class="ds">Parsley-forward, the proper ratio</span></span><span class="pr">$8</span></div>
+        <div class="item"><span class="nm">Labneh &amp; za'atar<span class="ds">Strained overnight, dressed in our blend</span></span><span class="pr">$7</span></div>
+        <div class="item"><span class="nm">Warak enab<span class="ds">Stuffed grape leaves, lemon-braised</span></span><span class="pr">$9</span></div>
+      </div>
+      <div class="mz">
+        <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8E3B2F" stroke-width="2" aria-hidden="true"><path d="M5 14c2-6 12-6 14 0"/><path d="M3 14h18"/><path d="M12 8V4"/></svg>Hot mezze</h3>
+        <div class="item"><span class="nm">Za'atar man'oushe<span class="ds">Hand-flattened, straight from the oven</span></span><span class="pr">$7</span></div>
+        <div class="item"><span class="nm">Cheese sambousek<span class="ds">Crescent pastries, akkawi and herbs</span></span><span class="pr">$8</span></div>
+        <div class="item"><span class="nm">Falafel, fried to order<span class="ds">Green inside, with amba and tahini</span></span><span class="pr">$8</span></div>
+        <div class="item"><span class="nm">Halloumi meshwi<span class="ds">Grilled, with watermelon when it's good</span></span><span class="pr">$9</span></div>
+        <div class="item"><span class="nm">Batata harra<span class="ds">Crisp potatoes, chili, cilantro, garlic</span></span><span class="pr">$7</span></div>
+      </div>
+      <div class="mz">
+        <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8E3B2F" stroke-width="2" aria-hidden="true"><path d="M4 19l5-13 3 6 3-9 5 16"/><path d="M3 19h18"/></svg>From the charcoal</h3>
+        <div class="item"><span class="nm">Lamb kofta skewers<span class="ds">Two skewers, grilled onion, sumac</span></span><span class="pr">$16</span></div>
+        <div class="item"><span class="nm">Shish taouk<span class="ds">Garlic-yogurt chicken, toum on the side</span></span><span class="pr">$15</span></div>
+        <div class="item"><span class="nm">Whole branzino<span class="ds">Aegean style — lemon, oregano, olive oil</span></span><span class="pr">$24</span></div>
+        <div class="item"><span class="nm">Mixed grill for the table<span class="ds">Kofta, taouk, lamb chops, the works</span></span><span class="pr">$42</span></div>
+        <div class="item"><span class="nm">Knafeh, to finish<span class="ds">Hot cheese, crisp kataifi, orange-blossom syrup</span></span><span class="pr">$9</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pantry" class="pantry">
+  <div class="wrap">
+    <div>
+      <p class="k">The pantry</p>
+      <h2>Four things we refuse to buy pre-made.</h2>
+      <p>Most of a Middle-Eastern menu is decided before the stove turns on — in the pantry. These four live or die on freshness, so we make them in-house, in small batches, on a schedule the kitchen plans around.</p>
+    </div>
+    <ul class="plist">
+      <li>
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#3A4524" stroke-width="2" aria-hidden="true"><circle cx="13" cy="13" r="9"/><path d="M13 8c2 2 2 8 0 10M8 13h10"/></svg>
+        <span><b>Za'atar blend</b> Wild thyme, sumac, and sesame toasted the same day it's mixed. Jarred za'atar is a different, sadder spice.</span>
+      </li>
+      <li>
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#3A4524" stroke-width="2" aria-hidden="true"><path d="M13 3v8"/><path d="M9 6l4 5 4-5"/><circle cx="13" cy="17" r="6"/></svg>
+        <span><b>Tahini</b> Stone-ground sesame, stirred by hand. It's the backbone of half the cold mezze, so it gets no shortcuts.</span>
+      </li>
+      <li>
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#3A4524" stroke-width="2" aria-hidden="true"><path d="M6 20c0-7 3-13 7-16 4 3 7 9 7 16z"/><path d="M13 20v-8"/></svg>
+        <span><b>Toum</b> The garlic cloud. Emulsified fresh in the afternoon; by closing it's gone, and that's how it should be.</span>
+      </li>
+      <li>
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="#3A4524" stroke-width="2" aria-hidden="true"><ellipse cx="13" cy="15" rx="9" ry="6"/><path d="M13 9c-1-3 1-5 4-6-1 3 0 5-4 6z"/></svg>
+        <span><b>Pita &amp; man'oushe dough</b> Mixed each morning, proofed slow, baked all service. The oven is the first thing we bought.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="join" class="join">
+  <div class="wrap">
+    <div>
+      <p class="k">Opening news</p>
+      <h2>The table is almost set.</h2>
+      <p style="max-width:50ch">We're keeping the address quiet until the oven passes its final test. Leave your name and we'll send one note when we open and one invitation to the first mezze night. Nothing else — we'd rather cook than email.</p>
+    </div>
+    <form action="#" method="post" onsubmit="event.preventDefault();this.querySelector('.form-note').textContent='Ahlan! You are noted. Sign-ups go live at launch — nothing you typed left your browser.';">
+      <div>
+        <label for="jname">Name</label>
+        <input id="jname" name="name" required autocomplete="name">
+      </div>
+      <div>
+        <label for="jplate">The plate you'd fight a cousin for</label>
+        <select id="jplate" name="plate">
+          <option>Hummus bil tahini</option><option>Za'atar man'oushe</option><option>Lamb kofta</option><option>Knafeh</option><option>All of it, pass the bread</option>
+        </select>
+      </div>
+      <button class="btn btn-olive" type="submit">Keep me posted</button>
+      <p class="form-note">Sign-ups open at launch — nothing you type here leaves your browser yet.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <h3>Al Ateima</h3>
+      <p style="max-width:40ch;font-size:.95rem">Middle-Eastern &amp; Mediterranean foods, served the mezze way — small plates, charcoal mains, bread that never stops.</p>
+    </div>
+    <div>
+      <h3>Table</h3>
+      <a href="#table">The idea</a>
+      <a href="#menu">Mezze &amp; mains</a>
+      <a href="#pantry">The pantry</a>
+      <a href="#join">Opening news</a>
+    </div>
+    <div>
+      <h3>Site</h3>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </div>
+    <div class="fineprint">
+      <span>© 2026 Al Ateima. All rights reserved.</span>
+      <span>Al Ateima is preparing to open; the menu and prices shown are a pre-launch draft.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
